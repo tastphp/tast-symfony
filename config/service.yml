@@ -1,0 +1,4 @@
+services:
+  AppDemo.User.UserDaoImpl:
+    class: AppDemo\Service\User\Dao\Impl\UserDaoImpl
+    arguments: ['@service_container']

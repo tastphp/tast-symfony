@@ -1,0 +1,8 @@
+doctrine:
+    dbal:
+        driver:   pdo_mysql
+        dbname:   symfony-demo
+        user:     root
+        password: 123
+        charset:  UTF8
+        server_version: 5.6
