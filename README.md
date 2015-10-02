@@ -13,7 +13,7 @@ a PHP framework based the Symfony components, Sexy and Powerful.
 * console 命令行工具
 * Annotations
 * Debug
-* Doctrine ORM/DBAL
+* Doctrine DBAL
 * EventDispatcher
 * More
 
@@ -32,7 +32,22 @@ step2:
 ```
 copy 一份.env.example，重命名为.env
 ```
-step3:
+step4:
+
+```
+//config/db.yml
+//配置数据库
+doctrine:
+    dbal:
+        driver:   pdo_mysql
+        dbname:   symfony-demo
+        user:     root
+        password: 123
+        charset:  UTF8
+        server_version: 5.6
+```
+
+step5:
 
 ```
 配置你的web server 
