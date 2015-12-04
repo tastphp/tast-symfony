@@ -6,3 +6,4 @@ doctrine:
         password: 123
         charset:  UTF8
         server_version: 5.6
+        host: 127.0.0.1

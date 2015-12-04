@@ -19,7 +19,6 @@ class UserDaoImpl extends BaseDao implements UserDao
             ->setParameter(0, $id);
 
         $user = $queryBuilder->execute()->fetchAll();
-
         return $user[0];
 
     }
